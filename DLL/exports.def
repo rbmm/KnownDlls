@@ -1,0 +1,34 @@
+EXPORTS
+
+BriAllocateRpcBuffer = \\?\global\globalroot\systemroot\system32\EventAggregation.BriAllocateRpcBuffer
+BriCleanup = \\?\global\globalroot\systemroot\system32\EventAggregation.BriCleanup
+BriCreateBrokeredEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.BriCreateBrokeredEvent
+BriCreateBrokeredEventEx = \\?\global\globalroot\systemroot\system32\EventAggregation.BriCreateBrokeredEventEx
+BriDeleteBrokeredEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.BriDeleteBrokeredEvent
+BriFreeRpcBuffer = \\?\global\globalroot\systemroot\system32\EventAggregation.BriFreeRpcBuffer
+BriGetBrokerAvailabilityChangeStamp = \\?\global\globalroot\systemroot\system32\EventAggregation.BriGetBrokerAvailabilityChangeStamp
+BriIsBrokerRegistered = \\?\global\globalroot\systemroot\system32\EventAggregation.BriIsBrokerRegistered
+BriRegisterToBrokerAvailability = \\?\global\globalroot\systemroot\system32\EventAggregation.BriRegisterToBrokerAvailability
+BriResolveBrokerIdByEventId = \\?\global\globalroot\systemroot\system32\EventAggregation.BriResolveBrokerIdByEventId
+BriUnregisterFromBrokerAvailability = \\?\global\globalroot\systemroot\system32\EventAggregation.BriUnregisterFromBrokerAvailability
+EACreateAggregateEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EACreateAggregateEvent
+EADeleteAggregateEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EADeleteAggregateEvent
+EAEnumerateAggregateEvents = \\?\global\globalroot\systemroot\system32\EventAggregation.EAEnumerateAggregateEvents
+EAQueryAggregateEventData = \\?\global\globalroot\systemroot\system32\EventAggregation.EAQueryAggregateEventData
+EaCreateAggregatedEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaCreateAggregatedEvent
+EaCreateAggregation = \\?\global\globalroot\systemroot\system32\EventAggregation.EaCreateAggregation
+EaDecodeBrokeredEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaDecodeBrokeredEvent
+EaDeleteAggregatedEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaDeleteAggregatedEvent
+EaDeleteAggregatedEventParameters = \\?\global\globalroot\systemroot\system32\EventAggregation.EaDeleteAggregatedEventParameters
+EaDeleteAggregation = \\?\global\globalroot\systemroot\system32\EventAggregation.EaDeleteAggregation
+EaDisableAggregatedEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaDisableAggregatedEvent
+EaEnableAggregatedEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaEnableAggregatedEvent
+EaEncodeBrokeredEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaEncodeBrokeredEvent
+EaFreeAggregatedEventParameters = \\?\global\globalroot\systemroot\system32\EventAggregation.EaFreeAggregatedEventParameters
+EaFreeBuffer = \\?\global\globalroot\systemroot\system32\EventAggregation.EaFreeBuffer
+EaGetAggregation = \\?\global\globalroot\systemroot\system32\EventAggregation.EaGetAggregation
+EaQueryAggregateEventConditionState = \\?\global\globalroot\systemroot\system32\EventAggregation.EaQueryAggregateEventConditionState
+EaQueryAggregatedEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaQueryAggregatedEvent
+EaQueryAggregatedEventParameters = \\?\global\globalroot\systemroot\system32\EventAggregation.EaQueryAggregatedEventParameters
+EaSignalAggregatedEvent = \\?\global\globalroot\systemroot\system32\EventAggregation.EaSignalAggregatedEvent
+EaStoreAggregatedEventParameters = \\?\global\globalroot\systemroot\system32\EventAggregation.EaStoreAggregatedEventParameters
