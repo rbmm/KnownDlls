@@ -1,5 +1,11 @@
 # KnownDlls
 
+after reading https://googleprojectzero.blogspot.com/2018/08/windows-exploitation-tricks-exploiting.html
+(we really not need step 1 - Use the vulnerability to create the directory “\GLOBAL??\KnownDlls” )
+and https://itm4n.github.io/the-end-of-ppldump/
+
+-------------------------------------------------------------------------------------------------------------------
+
 01. we try got tokens (primary and impersonation) with write access for \GLOBAL?? and with required privileges
 02. impersonate
 03. create symbolic link "\GLOBAL??\EventAggregation.dll" => "\BaseNamedObjects\MySection"
